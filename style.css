@@ -5,7 +5,7 @@ header {
 
 .caixa {
   position: relative;
-  width: 940px;
+  width: 1080px;
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ nav a:hover{
 }
 
 .produtos {
-  width: 940px;
+  width: 1080px;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -87,4 +87,26 @@ footer{
   color: white;
   font-size: 13px;
   margin-top: 20px;
+}
+
+main{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label{ 
+  display:block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+form input{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%
 }
