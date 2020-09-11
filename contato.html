@@ -26,30 +26,27 @@
     <main>
         <form>
             <label for="nomeSobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomeSobrenome">
+            <input type="text" id="nomeSobrenome" class="input-padrao">
 
             <label for="email">Endereço de Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" class="input-padrao">
 
             <label for="telefone">Telefone</label>
-            <input type="phone" id="telefone">
+            <input type="phone" id="telefone" class="input-padrao">
 
             <label for="mensagem" id="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10"></textarea>
+            <textarea cols="70" rows="10" class="input-padrao"></textarea>
             
             <div>
                 <p>Como prefere nosso contato?</p>
-                <label for="radio-email">Email</label>
-                <input id="radio-email" name="contato" type="radio" value="email">
+                <label for="radio-email"><input id="radio-email" name="contato" type="radio" value="email">Email</label>
     
-                <label for="radio-telefone">Telefone</label>
-                <input id="radio-telefone" name="contato" type="radio" value="telefone">
+                <label for="radio-telefone"><input id="radio-telefone" name="contato" type="radio" value="telefone">Telefone</label>
     
-                <label for="radio-whatsapp">Whatsapp</label>
-                <input id="radio-whatsapp" name="contato" type="radio" value="whatsapp">
+                <label for="radio-whatsapp"><input id="radio-whatsapp" name="contato" type="radio" value="whatsapp">Whatsapp</label>
             </div>
-            
-            <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <label><input type="checkbox" class="check-box">Gostaria de receber nossas novidades por email?</label>
 
             <input type="submit" value="Enviar Formulário" id="mensagem">
         </form>
