@@ -1,5 +1,4 @@
-body{
-
+body {
   font-family: "Montserrat", font-family;
 }
 
@@ -166,20 +165,19 @@ td {
   clear: left;
 }
 
-.titulo-principal:first-letter{
+.titulo-principal:first-letter {
   font-weight: bold;
 }
 
 .principal,
-.contatos
-{
+.contatos {
   width: 1080px;
   margin: 0 auto;
 }
 
 .principal {
   padding: 3em 0;
-  background: #FEFEFE
+  background: #fefefe;
 }
 
 .principal p {
@@ -203,24 +201,24 @@ td {
 .mapa {
   padding: 3em 0;
   text-align: center;
-  background: linear-gradient(#FEFEFE, #888888);
+  background: linear-gradient(#fefefe, #888888);
 }
 
-.mapa p{
+.mapa p {
   margin: 0 0 2em;
 }
 
-.benefícios{
+.benefícios {
   padding: 3em 0;
   background: #888888;
 }
 
-.conteúdo-benefícios{
+.conteúdo-benefícios {
   width: 820px;
   margin: 0 auto;
 }
 
-.lista-benefícios{
+.lista-benefícios {
   width: 40%;
   display: inline-block;
   vertical-align: top;
@@ -235,16 +233,77 @@ td {
   content: "✭";
 }
 
-
 .itens:first-child {
   font-weight: bold;
 }
 
 .imagem-benefícios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+}
+
+.imagem-benefícios:hover {
+  opacity: 0.8;
+  box-shadow: 10px 10px 25px #000000;
 }
 
 .video {
   width: 560px;
   margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .contatos,
+  .produtos,
+  .produtos li,
+  .conteúdo-benefícios,
+  .mapa,
+  .video{
+    width: auto;
+  }
+  
+  .produtos li{
+    display: block;
+    margin: 15px
+  }
+  
+  .contatos {
+    text-align: center;
+  }
+
+  .contatos table{
+    display: inline-block
+  }
+
+  .contatos form label{
+    margin: 0px 0px 1em;
+  }
+
+  .enviar {
+    width: 50%
+  }
+
+  .input-padrao{
+    display: inline;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  nav{
+    position: static;
+    text-align: center;
+  }
+
+  .mapa iframe{
+    width: 100%;
+  }
+
+  .lista-benefícios, .imagem-benefícios {
+    width: 100%;
+  }
 }
