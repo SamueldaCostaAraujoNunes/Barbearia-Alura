@@ -4,27 +4,31 @@ body {
 
 header {
   background: #bbbbbb;
-  padding: 20px 0;
 }
 
 .caixa {
-  position: relative;
-  width: 1080px;
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav {
-  position: absolute;
+.logo{
+  width: 100px;
+}
+
+.nav_itens {
   top: 110px;
   right: 0px;
+  padding-right: 10%;
 }
 
-nav li {
+.nav_itens li {
   display: inline;
-  margin: 0 0 0 15px;
+  padding: 0 0 0 15px;
 }
 
-nav a {
+.nav_itens a {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
@@ -32,9 +36,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
+.nav_itens a:hover {
   color: #c78c19;
-  text-decoration: underline;
+  border-bottom: 2px solid #c78c19;
 }
 
 .produtos {
@@ -51,7 +55,7 @@ nav a:hover {
   margin: 0 1.3%;
   padding: 30px 20px;
   box-sizing: border-box;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 15px;
 }
 
@@ -64,7 +68,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-  font-size: 45px;
+  font-size: 32px;
 }
 .produtos h2 {
   font-size: 30px;
@@ -264,7 +268,26 @@ td {
   .video{
     width: auto;
   }
-  
+
+  .nav_itens a {
+    font-size: 12px;
+  }
+
+  .logo{
+    width: 50px;
+  }
+  .titulo-principal{
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  .map{
+    width: 80%;
+  }
+ 
   .produtos li{
     display: block;
     margin: 15px
@@ -294,7 +317,7 @@ td {
     text-align: center;
   }
 
-  nav{
+  .nav_itens{
     position: static;
     text-align: center;
   }
